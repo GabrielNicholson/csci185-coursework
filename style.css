@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    color:aqua;
+    background-color: hsl(0, 0%, 45%);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header, section {
+    padding: 20px;
+}
+p, li {
+    line-height: 1.5em;
+}
+#tutorials { 
+    color: azure;
+    background-color: hsl(0, 0%, 40%);
+    padding-top: 40px;
+    padding-bottom: 40px;}
+
+#homework {  
+    color: azure;
+    background-color: hsl(0, 0%, 35%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+#inspiration {
+    color: azure;
+    background-color: hsl(0, 0%, 30%);
+    padding-top: 40px;
+    padding-bottom: 40px;}
+
+a:link{color:red}
+a:visited{color:orange}
