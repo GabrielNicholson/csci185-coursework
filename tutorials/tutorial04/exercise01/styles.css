@@ -1,0 +1,25 @@
+body {background-color: #f0f4ef;}
+header {background-color: #b4cded;
+text-align: center;
+font-family: impact;
+margin:0 auto;
+padding: 30px;
+}
+nav {background-color: black;
+    text-align: center;
+    padding:30px;
+    font-family: impact;
+text-decoration: none;
+color: white
+    }
+footer {color:white;
+background-color: #344966;
+margin-top:275px;
+}
+#images {
+display: grid;
+
+}
+#first {grid-column: 1;}
+#sec {grid-column: 4;}
+#third {grid-column: 6;}
