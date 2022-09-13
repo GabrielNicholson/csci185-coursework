@@ -1,0 +1,100 @@
+html { 
+    scroll-behavior: smooth;
+}
+
+body * {
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Your CSS Code Here! */
+ul {
+    list-style: none;
+float:right;
+width:300px;
+display:inline-flex;
+justify-content: space-evenly;
+font: 12pt
+
+}
+a:link {color:white;
+text-decoration:none;}
+a:visited {color:white;}
+a:hover {color:white;}
+/* .redbox {border:solid 3px red;} */
+#profile-pic {border-radius: 100px;
+margin-left:43%; 
+scale: 75%;
+}
+header {background-color:darkcyan;
+
+}
+
+#welcome {text-align: center;
+font-family: 'Amatic SC', cursive;
+color: white;
+}
+h2 {font-family: 'Amatic SC', cursive;
+}
+#about {padding:5%;}
+.project-holder {display: grid;
+grid-template-columns: auto auto;
+gap: 20px;
+margin:0px 50px 0px 150px;
+}
+.card {
+    margin:0px 50px 0px 150px;
+    width:min-content
+    
+
+
+}
+
+#projects {background-color:lightgrey;
+    
+    
+}
+#pro-title {margin:10px 0px 10px 300px;}
+
+.contact-details {display: grid;
+grid-template-columns: 1fr 1.5fr 1fr;
+}
+#contact-info {grid-column: 2;}
+#form {
+grid-template-columns: 500px 500px;}
+
+#name { grid-column-start: 1;
+width:450px;
+height: 100px;
+background-color: lightgray;
+}
+#email {
+    grid-column-start: 2;
+width: 500px;
+height:100px;
+background-color: lightgray;
+}
+#message {
+    width: 1000px;
+    height: 100px;
+    margin-top:0px;
+    background-color: lightgray;
+grid-column: 1;
+margin-left: 0px;
+}
+.row1 {width:1000px;
+display: grid;}
+.row {
+    margin: 30px;
+    
+}
+footer {
+text-align: center;
+background-color: lightgrey;
+padding:30px;
+
+}
