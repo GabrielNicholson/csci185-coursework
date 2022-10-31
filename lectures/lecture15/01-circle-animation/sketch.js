@@ -60,6 +60,7 @@ function draw(){
         i++
         circle(ball.x,ball.y,ball.d)
     }
+    
 }
 
 
@@ -68,9 +69,9 @@ function draw(){
 // function draw() {
 //     clear();
 //     fill('hotpink');
-//     circle(ball1.x, ball1.y, ball1.d);
-//     ball1.x += ball1.speedX;
-//     ball1.y += ball1.speedY;
-//     ball1.d += ball1.speedX;
+//     circle(ball.x, ball.y, ball.d);
+//     ball.x += ball.speedX;
+//     ball.y += ball.speedY;
+//     ball.d += ball.speedX;
 //     drawGrid(canvasWidth, canvasHeight);
 // }
