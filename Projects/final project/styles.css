@@ -1,0 +1,96 @@
+body{
+    height: fit-content;
+    min-height: 3608px;
+    background: rgb(9,4,34);
+background: linear-gradient(0deg, rgba(9,4,34,1) 0%, rgba(60,34,195,1) 73%, rgba(45,253,240,1) 100%);}
+    #title{
+       display: flex;
+     position: fixed;   
+     left: 44vw;
+     background-color: rgb(206, 206, 206);
+     border: 2px solid rgb(174, 205, 50);
+     border-radius: 15px;
+     width: 135px;
+     height: 50px;
+     font-weight:bold;
+     padding: 5px;
+     text-align:center;
+    }
+    .p5Canvas {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+    #container{
+        /* display:flexbox;
+        flex-direction: column;
+        justify-content: space-evenly; */
+    }
+    #surfaceInfo{
+    background-color: beige;
+    display: flex;
+    position: relative;
+        top: 50vh;
+        left:12vw;
+        width: 150px;
+        height: 75px;
+        overflow: hidden;
+        border: 4px solid rgb(0, 0, 0);
+     border-radius: 15px;
+    }
+  
+    #sunlightZone{
+        background-color: beige;
+        display: flex;
+        position: relative;
+            top: 100vh;
+            left:12vw;
+            width: 150px;
+            height: 75px;
+            border: 4px solid rgb(0, 0, 0);
+            border-radius: 15px;
+    }
+    #twilightZone{
+        display: flex;
+        position: relative;
+        top: 200vh 
+    }
+    #midnightZone{
+        top:300vh 
+
+    }
+    #bottem{
+        top:400vh
+    }
+
+    /* @keyframes infographic {
+        0% {width: 150px; height: 75px;}
+        100% {width: 400px; height: 150px;}
+    }
+    .info{
+        animation-name: infographic;
+        animation-duration: 5s;
+    } */
+
+    .info  {
+        background: rgb(0, 255, 119) !important;
+        transition: all 0.3s ease-out !important;
+        background-color: beige;
+    display: flex;
+    position: relative;
+    left:12vw;
+        width: 150px;
+        height: 75px;
+        overflow: hidden;
+        border: 4px solid rgb(0, 0, 0);
+     border-radius: 15px;
+    
+    }
+    
+    .info:hover {
+        background: rgb(98, 255, 234) !important;
+        width: 320px !important;
+        height: 220px !important;
+        border-radius: 25px !important;
+        padding: 5px !important;
+    }

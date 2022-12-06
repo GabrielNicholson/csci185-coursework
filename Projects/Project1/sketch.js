@@ -32,7 +32,7 @@ function setup() {
 
 
 
-    drawGrid(canvasWidth, canvasHeight);
+    // drawGrid(canvasWidth, canvasHeight);
 }
 function randomIntFromInterval(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
